@@ -1,0 +1,22 @@
+4. ✍️ Blog
+Objectif : 6 à 8 articles publiés d'ici septembre
+Idées d'articles concrètes :
+ArticleDurée estimée"C'est quoi le SQL Injection — 
+ce que j'ai appris en L2"2h"Comment j'ai codé mon site de bijoux from scratch
+"2h"TryHackMe : mes premières rooms, mon retour honnête"1h30"
+C'est quoi le modèle OSI en vrai"2h"
+Bilan de ma L2 info : ce que j'ai appris, ce qui était dur"1h30"Pourquoi j'ai choisi la cybersécurité"1h"Comment fonctionne un firewall simplement"2h
+Format simple pour chaque article :
+
+Introduction courte (pourquoi ce sujet)
+Explication claire comme si t'écrivais à quelqu'un qui débute
+Ce que toi t'en as retenu
+Pas besoin d'être parfait, juste authentique
+
+
+rajouter une partie pour mes certifs???
+
+Ajoutez un bouton voir mon CV A côté des 2 boutons du héros
+
+Côté projet quand l'utilisateur clique Sur le projet du site ecom Il atterrit sur Le site lui même Il clique sur la capture d'écran du jeu PAC Man Il atterrit sur Le site descriptifs Du projet On a créé Et quand ils criquent Bouton voir le projet il tombe sur Les dépôts github
+
