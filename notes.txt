@@ -16,7 +16,11 @@ Pas besoin d'être parfait, juste authentique
 
 rajouter une partie pour mes certifs???
 
-Ajoutez un bouton voir mon CV A côté des 2 boutons du héros
 
 Côté projet quand l'utilisateur clique Sur le projet du site ecom Il atterrit sur Le site lui même Il clique sur la capture d'écran du jeu PAC Man Il atterrit sur Le site descriptifs Du projet On a créé Et quand ils criquent Bouton voir le projet il tombe sur Les dépôts github
 
+
+*********Git*******
+git push
+git commit -m "Amélioration du design des boutons"
+git add .
