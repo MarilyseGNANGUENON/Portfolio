@@ -21,6 +21,21 @@ Côté projet quand l'utilisateur clique Sur le projet du site ecom Il atterrit 
 
 
 *********Git*******
-git push
-git commit -m "Amélioration du design des boutons"
+
+=======Pour nouveau repository======
+git init
+git remote add origin https://github.com/TON-PSEUDO/TON-REPOSITORY.git
+git remote -v
+
+
+Puis,
+
 git add .
+git commit -m "Premier commit"
+git branch -M main
+git push -u origin main
+
+=======Pour continuer avec ancien repository======
+git add .
+git commit -m "Amélioration du design des boutons"
+git push

@@ -1,7 +1,4 @@
 
-/* html, body {
-    overflow-x: hidden;
-} */
 
 * {
     margin:0;
@@ -187,9 +184,6 @@ hr {
     transform: translateY(-3px);
 }
 
-
-
-
 .effet_scroll{
     background-color: rgba(46, 74, 107, 0.95); 
     backdrop-filter: blur(10px);
@@ -318,15 +312,6 @@ footer p.code{
     color: var(--secondary-color);
     
 }
-
-/* .cybersecu li{
-    margin: 6px;
-    border-radius: 20px;
-    background-color: var(--special-color-1);
-    color:var(--secondary-color);
-} */
-
-
 
 
 #about, #skills {
@@ -569,6 +554,7 @@ nav a.active{
      /* HERO */
 
     #hero {
+        text-align: center;
         width: 100%;
         max-width: 100%;
         min-height: 100svh;
@@ -592,8 +578,11 @@ nav a.active{
 
     #about img {
         max-width: 100%;
+        width: 250px;
+        height: 250px;
         margin: 0 auto;
     }
+
 
      /* SKILLS */
 
