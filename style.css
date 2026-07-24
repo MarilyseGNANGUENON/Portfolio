@@ -110,8 +110,10 @@ nav ul a:hover{
     color:var(--primary-color-1) ;
 }
 
-.nom-complet{
+.nom-complet p{
     color: var(--primary-color-1);
+    font-family: var(--font-titre);
+    font-size: var(--text-h2);
 }
 
 hr {
@@ -127,13 +129,13 @@ hr {
   max-width: none;
   width: 100%;
   margin: 0;
-  min-height: 100vh;  
+  min-height: 100svh;  
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding:100px 50px ;
   background-image: url("src/imgs/hero-background-img.jpg");
   background-size: cover;
   background-position: center;
@@ -544,6 +546,9 @@ nav a.active{
 
 .icone-menu{
     display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -572,7 +577,7 @@ nav a.active{
         width: 100%;
         max-width: 100%;
         min-height: 100svh;
-        padding: 40px 20px;
+        padding: 150px 20px 50px;
     }
 
     /* NAVIGATION */
@@ -582,8 +587,8 @@ nav a.active{
         /* flex-wrap: wrap; */
     }
 
-    .nom-complet *{
-        font-size:medium;
+    .nom-complet p{
+        font-size: 1rem;
     }
 
      /* ABOUT */
@@ -670,16 +675,34 @@ nav a.active{
     }
 
     nav ul.menu-ouvert {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
         display: flex;
         flex-direction: column;
         background-color: rgba(46, 74, 107, 0.95);
-        padding: 20px;
+        padding: 10px;
+    }
+
+    nav ul.menu-ouvert li {
+        width: 100%;
+    }
+
+    nav ul.menu-ouvert li a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul.menu-ouvert li a:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
     }
 
     /* Pour transformer l'icone hamburger en croix */
     .icone-menu.icone-croix span:nth-child(1) {
-        transform: rotate(45deg);
-        transform: translateY(8px);
+        transform:translateY(8px) rotate(45deg) ;
     }
 
     .icone-menu.icone-croix span:nth-child(2) {
@@ -687,7 +710,6 @@ nav a.active{
     }
 
     .icone-menu.icone-croix span:nth-child(3) {
-        transform: rotate(-45deg);
-        transform: translateY(-8px);
+        transform: translateY(-8px) rotate(-45deg) ;
     }
 }

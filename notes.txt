@@ -39,3 +39,11 @@ git push -u origin main
 git add .
 git commit -m "Amélioration du design des boutons"
 git push
+
+
+
+5/5 — Maîtrise
+4/5 — Pratique régulière
+3/5 — Bases solides
+2/5 — Notions
+1/5 — En apprentissage
