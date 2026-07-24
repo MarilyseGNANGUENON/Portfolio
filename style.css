@@ -533,6 +533,20 @@ nav a.active{
     color: var(--primary-color-1);
 }
 
+.icone-menu span{
+    background-color: var(--primary-color-1);
+    /* display: block;  parce que par défaut un span est → inline */
+    width: 20px;
+    height: 3px; 
+    /* margin: 5px; */
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.icone-menu{
+    display: none;
+}
+
+
 
 /* SE METTENT TJRS A LA FIN DU CSS sinon les autres styles les écraseront) */
 @media (max-width: 768px) {
@@ -637,4 +651,39 @@ nav a.active{
         gap: 20px;
     }
 
+    /*Bouton hamburger du menu*/
+    .icone-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 5px;
+        
+        
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.menu-ouvert {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(46, 74, 107, 0.95);
+        padding: 20px;
+    }
+
+    /* Pour transformer l'icone hamburger en croix */
+    .icone-menu.icone-croix span:nth-child(1) {
+        transform: rotate(45deg);
+        transform: translateY(8px);
+    }
+
+    .icone-menu.icone-croix span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .icone-menu.icone-croix span:nth-child(3) {
+        transform: rotate(-45deg);
+        transform: translateY(-8px);
+    }
 }

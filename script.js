@@ -71,3 +71,25 @@ const observer2 = new IntersectionObserver((entries) => {  //(entries)=>{} équi
 });
 
 sections.forEach(section => observer2.observe(section));
+
+
+//Gestion du menu hamburger
+let bouton_menu=document.querySelector('button[class="icone-menu"]');
+bouton_menu.addEventListener("click", function(){
+    document.querySelector("nav ul").classList.toggle("menu-ouvert");
+    bouton_menu.classList.toggle("icone-croix");
+
+});
+
+
+    // fermer le menu si un lien est cliqué
+    let menu=document.querySelector("nav ul");
+    document.querySelectorAll("nav ul a").forEach(lien => {
+        lien.addEventListener("click", function(){
+            if (menu.classList.contains("menu-ouvert")) {
+                menu.classList.remove("menu-ouvert");
+                bouton_menu.classList.remove("icone-croix");
+            }
+        });
+    });
+
