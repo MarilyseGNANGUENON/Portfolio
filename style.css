@@ -579,7 +579,11 @@ nav a.active{
 
     nav {
         width: 100%;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+    }
+
+    .nom-complet *{
+        font-size:medium;
     }
 
      /* ABOUT */
