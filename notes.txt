@@ -13,11 +13,12 @@ Explication claire comme si t'écrivais à quelqu'un qui débute
 Ce que toi t'en as retenu
 Pas besoin d'être parfait, juste authentique
 
+0-reduire margin et paddings
+1-cote certifs, mettre la capture du certificat et quand on clique dessus on peut le telecharger
+2-contacts rajouter espace margin entre inputs, rééquilibrer espaces des deux cotés changer placeholder
+3- experience utilisateur: user interface
+4-footer changer icone e mail, mettre contact email et consort dans contact; enlever voir le code source
 
-rajouter une partie pour mes certifs???
-
-
-Côté projet quand l'utilisateur clique Sur le projet du site ecom Il atterrit sur Le site lui même Il clique sur la capture d'écran du jeu PAC Man Il atterrit sur Le site descriptifs Du projet On a créé Et quand ils criquent Bouton voir le projet il tombe sur Les dépôts github
 
 
 *********Git*******
@@ -47,3 +48,5 @@ git push
 3/5 — Bases solides
 2/5 — Notions
 1/5 — En apprentissage
+
+

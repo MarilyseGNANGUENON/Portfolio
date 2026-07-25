@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Mirabelle-gnanguenon</title>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
@@ -113,7 +114,9 @@
                 <div class="skill-card">
                     <h3>Certifications et Formations</h3>
                         <ul class="certifs">
-                            <li>✔️MOOC Cybersecurité Cyberini</li>
+                            <a href="src/docs/certificat-cyberini.pdf" target="_blank" download>
+                                <li><p>✔️ MOOC Cybersecurité Cyberini</p><img src="src/imgs/certif-cyberini.png" alt="Capture d'écran d'une certification"></li>
+                            </a>
                         </ul>
                 </div>
             </div> 
@@ -239,10 +242,10 @@
             <div class="contenu-section">
                 <form action="" method="post">
                 <label for="nom">Nom complet</label>
-                <input type="text" id="nom" placeholder="Laurent Jacques" required>
+                <input type="text" id="nom" placeholder="Nom Prenom" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="laurentjacques@gmail.com" required>
+                <input type="email" id="email" placeholder="nomprenom@gmail.com" required>
 
                 <label for="message">Message</label>
                 <textarea name="message" id="message" required></textarea>
@@ -250,20 +253,19 @@
                 <button type="submit">Envoyer</button>
 
                 </form>
+
+                <div class="mes-coordonnees">
+                    <h4>Une question, une opportunité, ou simplement envie d'échanger ?</h4>
+                    <a href="https://github.com/MarilyseGNANGUENON" target="_blank"><i class="devicon-github-original"></i>  GitHub → Mes projets et réalisations</a>
+                    <a href="http://linkedin.com/in/mirabelle-gng" target="_blank"><i class="devicon-linkedin-plain"></i>  LinkedIn → Mon parcours et mon profil professionnel</a>
+                    <a href="mailto:mahoutongnanguenon@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i>  EMail → Me contacter directement</a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 Mirabelle Gnanguenon</p>
-        <div>
-            <a href=""><i class="devicon-github-original"></i>GitHub</a>
-            <a href=""><i class="devicon-linkedin-plain"></i>LinkedIn</a>
-            <a href="mailto:mahoutongnanguenon@gmail.com">📧 Mail</a>
-        </div>
-
-        <p class="code"><a href="">→ Voir le code source </a></p>
-        
+        <p>© 2026 Mirabelle Gnanguenon - Portfolio réalisé from scratch</p>
     </footer>
 </body>
 </html>
