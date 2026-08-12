@@ -430,6 +430,17 @@ footer *{
     transform: translateY(0);
 }
 
+#blog div.desc-blog{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+}
+
+#blog div.desc-blog a{
+    color: var(--special-color-3);
+    text-decoration: none;
+}
+
 #blog div.contenu-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -459,6 +470,18 @@ footer *{
     align-items: center;
     gap: 20px;
 }
+
+#blog a.lien-article{
+    
+    color:var(--secondary-color);
+    text-decoration: none;
+}
+
+#blog a.lien-article:hover{
+    text-decoration: underline;
+}
+
+
 
 .date-article{
     font-size: var(--text-small);
