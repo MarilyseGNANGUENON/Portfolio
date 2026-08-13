@@ -579,13 +579,14 @@ div.mes-coordonnees a{
     background-color: var(--special-color-1);
     border-radius: 12px;
     padding: 20px;
+    transition: all 0.3s ease;
 }
 
 div.mes-coordonnees a:hover{
     /* box-shadow: 1px 2px 2px var(--text-color-2); */
     background-color: rgba(17, 56, 101, 0.12);
     transform: translateY(-3px);
-    transition: all 0.3s ease;
+    
 }
 
 nav a.active{
